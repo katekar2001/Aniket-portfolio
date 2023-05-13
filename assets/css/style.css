@@ -572,6 +572,7 @@ strong{
   .projects .card{
     margin: 6px 0px;
   }
+
 }
 /*--------------------------------------------------------------
 # Contact Me
@@ -714,6 +715,12 @@ strong{
 
 .contact .php-email-form button[type=submit]:hover {
   background: rgb(252, 70, 182);
+}
+
+@media screen and (max-width:575px){
+  .php-email-form{
+    margin-top: 24px;
+  }
 }
 
 @keyframes animate-loading {
